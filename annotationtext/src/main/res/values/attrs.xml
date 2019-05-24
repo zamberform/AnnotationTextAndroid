@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnnotationTextView">
+
+        <attr name="split" format="string" />
+
+        <attr name="text" format="string" />
+        <attr name="annotationText" format="string" />
+        <attr name="textFont" format="string" />
+        <attr name="textFontSize" format="integer" />
+        <attr name="textColor" format="color" />
+        <attr name="textSpace" format="integer" />
+
+        <attr name="annotationColor" format="color" />
+        <attr name="annotationFont" format="string" />
+        <attr name="annotationTxtSpace" format="integer" />
+
+        <attr name="annotationSpace" format="integer" />
+        <attr name="annotationSizeRadio" format="float" />
+        <attr name="lineSpace" format="integer" />
+
+        <attr name="isShowAnnotation" format="boolean" />
+
+    </declare-styleable>
+</resources>

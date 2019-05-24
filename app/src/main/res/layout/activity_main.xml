@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+        <zamberform.jun.annotationtext.AnnotationTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_centerHorizontal="true"
+                app:text="|映|画|はすごいものと|思|います、|時|間|あれば|新|作|をみたいと|思|いますね。"
+                app:annotationText="|えい|が||おも| |じ|かん| |しん|さく| |おも||"
+                app:split="|"
+        />
+
+        <zamberform.jun.annotationtext.AnnotationTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_centerHorizontal="true"
+                app:text=";中;文;教;学;,;中;文;教;育;。"
+                app:annotationText=";zhong;wen;jiao;xue;;zhong;wen;jiao;yu;;"
+                app:split=";"
+        />
+
+        <zamberform.jun.annotationtext.AnnotationTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_centerHorizontal="true"
+                app:text="なにを書いても大丈夫"
+                app:isShowAnnotation="false"
+        />
+    </LinearLayout>
+</RelativeLayout>

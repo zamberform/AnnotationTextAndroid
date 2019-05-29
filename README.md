@@ -3,7 +3,7 @@ An Library to show textview which can config annotation in Japanese&amp;Chinese
 
 ## SampleShow
 
-![ScreenShot](https://github.com/PhilJay/MPAndroidChart/blob/master/screenshots/sample0.png)
+![ScreenShot](https://github.com/zamberform/AnnotationTextAndroid/blob/master/screenshots/sample0.png)
 
 ### Gradle Setup
 
